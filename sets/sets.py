@@ -42,3 +42,9 @@ print("Symmetric Difference:", set1.symmetric_difference(set2))
 # Membership Test
 
 print("Is 5 in set1?", 5 in set1)
+
+numbers = {1, 1, 2, 2, 3, 3, 4}
+
+print("Duplicates Removed:", numbers)
+
+#This demonstrates that sets automatically remove duplicates.
